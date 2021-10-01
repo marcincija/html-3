@@ -1,0 +1,133 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #f5f5f5;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 800ms;
+}
+
+/* poppins-regular - latin-ext_latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/poppins-v15-latin-ext_latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/poppins-v15-latin-ext_latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/poppins-v15-latin-ext_latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/poppins-v15-latin-ext_latin-regular.woff") format("woff"),
+    /* Modern Browsers */
+      url("../fonts/poppins-v15-latin-ext_latin-regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/poppins-v15-latin-ext_latin-regular.svg#Poppins")
+      format("svg"); /* Legacy iOS */
+}
+
+/* open-sans-regular - latin-ext_latin */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/open-sans-v26-latin-ext_latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/open-sans-v26-latin-ext_latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/open-sans-v26-latin-ext_latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/open-sans-v26-latin-ext_latin-regular.woff") format("woff"),
+    /* Modern Browsers */
+      url("../fonts/open-sans-v26-latin-ext_latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/open-sans-v26-latin-ext_latin-regular.svg#OpenSans")
+      format("svg"); /* Legacy iOS */
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#topnav {
+  width: 100%;
+  background: #2b2b2b;
+}
+
+.menunav {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+}
+
+.menunav li {
+  padding: 10px 10px 10px 10px;
+  font-size: 2rem;
+  font-family: "Poppins";
+}
+
+.menunav li a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition-timing-function: ease-in;
+  transition: 500ms;
+  font-size: 1.8rem;
+}
+
+.menunav li a:active {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition-timing-function: ease-in;
+  transition: 500ms;
+}
+
+.menunav li a:visited {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition-timing-function: ease-in;
+  transition: 500ms;
+}
+
+.menunav li a:link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition-timing-function: ease-in;
+  transition: 500ms;
+}
+
+.flexdivheader {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
+.centerflexrow {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+}
