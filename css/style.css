@@ -131,3 +131,9 @@ body {
   width: 60%;
   justify-content: center;
 }
+
+.boxmodel {
+  border: 20px solid #93bc47;
+  padding: 20px;
+  margin: 20px;
+}
